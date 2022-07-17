@@ -135,7 +135,7 @@ body.dark #searchInput::placeholder {
 #menuBar.open .links {
   padding: 10px;
   border-radius: 25px;
-  margin-left: 1.3vw;
+  margin-left: 12px;
 }
 
 .links.active {
