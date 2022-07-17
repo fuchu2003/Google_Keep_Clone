@@ -1,0 +1,115 @@
+@media screen and (min-width: 1440px) {
+  #logo_img {
+    left: 3%;
+  }
+  #searchBar {
+    margin: 0px 35% 0px 6%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #logo_img {
+    margin-left: 5px;
+  }
+  #searchBar {
+    margin: auto;
+  }
+  .links {
+    padding: 10px 12vw 10px 2.7vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #logo_img {
+    margin-left: 12px;
+  }
+  .notes-boxes {
+    margin: 3px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #inputArea {
+    width: 85%;
+  }
+  #noteShowArea {
+    justify-content: center;
+  }
+  #noteShowArea.noteShowArea .notes-boxes {
+    min-width: 90%;
+  }
+  .icons {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #logo_img {
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #logo_img {
+    margin-left: 13px;
+  }
+  #searchBar {
+    overflow: hidden;
+    margin: 0px 0px 0px auto;
+    width: 11%;
+    background-color: transparent;
+  }
+
+  #searchBar:hover {
+    position: relative;
+    margin: 0px -55px 0px 0px;
+    width: 100%;
+    left: -53px;
+    background-color: var(--light-two);
+  }
+}
+@media screen and (max-width: 500px) {
+  #about {
+    padding: 25px 0px;
+  }
+  #about h1 {
+    font-size: 6vw;
+  }
+  #about h2 {
+    font-size: 4vw;
+  }
+  #about p {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  #logo_img {
+    margin-left: 19px;
+  }
+  #searchBar {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #searchBar {
+    width: 16%;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  #searchBar {
+    width: 16%;
+  }
+}
+@media screen and (max-width: 330px) {
+  #searchBar {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    min-width: 320px;
+  }
+}
