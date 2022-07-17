@@ -13,7 +13,7 @@ const App = () => {
       <div id="main-body">
         <Pages />
         <Routes>
-          <Route end path="/Google_Keep_Clone" element={<BodyArea />}></Route>
+          <Route end path="/Google_Keep_Clone/" element={<BodyArea />} />
           <Route end path="/Google_Keep_Clone/About" element={<About />} />
           <Route path="*" element={<Err />} />
         </Routes>

@@ -10,7 +10,7 @@ const Pages = () => {
   return (
     <>
       <div id="menuBar" className={menu ? null : "open"}>
-        <NavLink end={true} className="links" to="/Google_Keep_Clone">
+        <NavLink end={true} className="links" to="/Google_Keep_Clone/">
           <LightbulbOutlinedIcon />
           <p style={menu ? null : { display: "none" }}>Notes</p>
         </NavLink>
